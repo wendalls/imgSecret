@@ -1,0 +1,77 @@
+{
+  "format": "sgsr-xvcs-image-v2",
+  "kind": "threshold",
+  "region_layout": "horizontal_region_blocks",
+  "k": 3,
+  "n": 6,
+  "height": 512,
+  "width": 512,
+  "pixel_expansion": 3,
+  "participants": [
+    {
+      "index": 0,
+      "label": "1",
+      "file": "share_001.png"
+    },
+    {
+      "index": 1,
+      "label": "2",
+      "file": "share_002.png"
+    },
+    {
+      "index": 2,
+      "label": "3",
+      "file": "share_003.png"
+    },
+    {
+      "index": 3,
+      "label": "4",
+      "file": "share_004.png"
+    },
+    {
+      "index": 4,
+      "label": "5",
+      "file": "share_005.png"
+    },
+    {
+      "index": 5,
+      "label": "6",
+      "file": "share_006.png"
+    }
+  ],
+  "regions": [
+    {
+      "index": 0,
+      "allocation": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "index": 1,
+      "allocation": [
+        0,
+        1,
+        0,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 2,
+      "allocation": [
+        0,
+        1,
+        2,
+        1,
+        2,
+        0
+      ]
+    }
+  ]
+}

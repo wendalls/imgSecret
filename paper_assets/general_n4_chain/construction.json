@@ -1,0 +1,149 @@
+{
+  "format": "sgsr-xvcs-construction-v1",
+  "kind": "general",
+  "summary": {
+    "participant_count": 4,
+    "minimal_qualified_count": 3,
+    "qualified_target_count": 3,
+    "reconstruction_mode": "standard",
+    "optimal_regions": 2,
+    "elapsed_seconds": 0.026552599996648496,
+    "examined_pairs": 11,
+    "raw_candidates": 9,
+    "deduplicated_candidates": 6,
+    "nondominated_candidates": 3,
+    "solver": "OR-Tools CBC ILP"
+  },
+  "construction": {
+    "participants": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "minimal_qualified": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ]
+    ],
+    "maximal_forbidden": [
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "method": "sgsr-standard-qualified-induced+ILP",
+    "optimal": true,
+    "compatibility_checks": 11,
+    "reconstruction_mode": "standard",
+    "regions": [
+      {
+        "block_id": 1,
+        "recovered_qualified": [
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "rank": 2,
+        "random_variable_count": 2,
+        "formulas": [
+          {
+            "participant": 1,
+            "secret_coefficient": 1,
+            "random_terms": [
+              1
+            ]
+          },
+          {
+            "participant": 2,
+            "secret_coefficient": 0,
+            "random_terms": [
+              1
+            ]
+          },
+          {
+            "participant": 3,
+            "secret_coefficient": 1,
+            "random_terms": [
+              1
+            ]
+          },
+          {
+            "participant": 4,
+            "secret_coefficient": 0,
+            "random_terms": [
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "block_id": 2,
+        "recovered_qualified": [
+          [
+            1,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "rank": 2,
+        "random_variable_count": 2,
+        "formulas": [
+          {
+            "participant": 1,
+            "secret_coefficient": 1,
+            "random_terms": [
+              1
+            ]
+          },
+          {
+            "participant": 2,
+            "secret_coefficient": 0,
+            "random_terms": [
+              1
+            ]
+          },
+          {
+            "participant": 3,
+            "secret_coefficient": 1,
+            "random_terms": [
+              3
+            ]
+          },
+          {
+            "participant": 4,
+            "secret_coefficient": 0,
+            "random_terms": [
+              3
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

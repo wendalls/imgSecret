@@ -1,0 +1,68 @@
+{
+  "format": "sgsr-xvcs-construction-v1",
+  "kind": "threshold",
+  "summary": {
+    "k": 2,
+    "n": 3,
+    "qualified_count": 3,
+    "raw_candidate_count": 3,
+    "candidate_count": 3,
+    "duplicate_candidates_removed": 0,
+    "dominated_candidates_removed": 0,
+    "matrix_nonzeros": 6,
+    "matrix_density": 0.6666666666666666,
+    "matrix_generation_seconds": 2.7100000806967728e-05,
+    "solver_seconds": 0.021048500000688364,
+    "solver_status": "OPTIMAL",
+    "proven_optimal": true,
+    "lower_bound": 2,
+    "upper_bound": 2,
+    "optimal_regions": 2,
+    "selected_candidate_indices": [
+      0,
+      1
+    ],
+    "selected_assignments": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "share_type_formulas": [
+      "R1",
+      "S XOR R1"
+    ],
+    "solver_threads": 12,
+    "solver_parallel": true
+  },
+  "construction": {
+    "k": 2,
+    "n": 3,
+    "share_type_formulas": [
+      "R1",
+      "S XOR R1"
+    ],
+    "selected_candidate_indices": [
+      0,
+      1
+    ],
+    "selected_assignments": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ]
+  }
+}

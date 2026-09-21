@@ -1,0 +1,5 @@
+instance,definition,n,g,canonical_allocations,allocation_relation_pairs,raw_candidates,unique_coverage_columns,retained_columns,t_gen_median_s,t_ip_median_s,total_median_s,optimal_regions,status,solver,repeats
+G6-14,"first 14 lexicographic 3-subsets of [1,6]",6,14,203,868,341,238,46,0.03086510000139242,0.028822399999626214,0.059687500001018634,3,Optimal,OR-Tools CBC ILP,1
+G7-20,"first 20 lexicographic 3-subsets of [1,7]",7,20,877,6635,1936,1099,80,0.25886430000173277,0.025354800000059186,0.28421910000179196,4,Optimal,OR-Tools CBC ILP,1
+G7-25,"first 25 lexicographic 3-subsets of [1,7]",7,25,877,12622,3476,2266,76,0.42516189999878407,0.16378030000123545,0.5889422000000195,4,Optimal,OR-Tools CBC ILP,1
+G7-30,"first 30 lexicographic 3-subsets of [1,7]",7,30,877,18993,5568,3963,265,1.2975570999988122,0.06192620000001625,1.3594832999988284,4,Optimal,OR-Tools CBC ILP,1

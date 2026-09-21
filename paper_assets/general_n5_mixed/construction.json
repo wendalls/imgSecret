@@ -1,0 +1,473 @@
+{
+  "format": "standalone-general-xvcs-v1",
+  "summary": {
+    "participant_count": 5,
+    "minimal_qualified_count": 5,
+    "optimal_regions": 2,
+    "examined_pairs": 61,
+    "raw_candidates": 51,
+    "deduplicated_candidates": 18,
+    "nondominated_candidates": 5,
+    "solver": "built-in exact binary branch-and-bound"
+  },
+  "access_structure": {
+    "participants": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "minimal_qualified": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ]
+    ],
+    "maximal_forbidden": [
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        5
+      ]
+    ]
+  },
+  "candidates": [
+    {
+      "name": "A",
+      "selected": true,
+      "allocation": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "coverage": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "covered_qualified": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "share_types": [
+        {
+          "type": 0,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "S XOR R_1 XOR R_2"
+        },
+        {
+          "type": 1,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "R_1 XOR R_2"
+        },
+        {
+          "type": 2,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0
+          ],
+          "text": "R_1"
+        },
+        {
+          "type": 3,
+          "secret_coefficient": 0,
+          "random_terms": [
+            1
+          ],
+          "text": "R_2"
+        }
+      ],
+      "recovery_masks": [
+        3,
+        13
+      ],
+      "recovery_relations": [
+        "T_0 XOR T_1 = S",
+        "T_0 XOR T_2 XOR T_3 = S"
+      ]
+    },
+    {
+      "name": "B",
+      "selected": true,
+      "allocation": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "coverage": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      "covered_qualified": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "share_types": [
+        {
+          "type": 0,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "R_1 XOR R_2"
+        },
+        {
+          "type": 1,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "S XOR R_1 XOR R_2"
+        },
+        {
+          "type": 2,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0
+          ],
+          "text": "R_1"
+        },
+        {
+          "type": 3,
+          "secret_coefficient": 0,
+          "random_terms": [
+            1
+          ],
+          "text": "R_2"
+        }
+      ],
+      "recovery_masks": [
+        3,
+        14
+      ],
+      "recovery_relations": [
+        "T_0 XOR T_1 = S",
+        "T_1 XOR T_2 XOR T_3 = S"
+      ]
+    },
+    {
+      "name": "C",
+      "selected": false,
+      "allocation": [
+        0,
+        1,
+        2,
+        3,
+        3
+      ],
+      "coverage": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "covered_qualified": [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "share_types": [
+        {
+          "type": 0,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0
+          ],
+          "text": "S XOR R_1"
+        },
+        {
+          "type": 1,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "S XOR R_1 XOR R_2"
+        },
+        {
+          "type": 2,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0
+          ],
+          "text": "R_1"
+        },
+        {
+          "type": 3,
+          "secret_coefficient": 0,
+          "random_terms": [
+            1
+          ],
+          "text": "R_2"
+        }
+      ],
+      "recovery_masks": [
+        5,
+        14
+      ],
+      "recovery_relations": [
+        "T_0 XOR T_2 = S",
+        "T_1 XOR T_2 XOR T_3 = S"
+      ]
+    },
+    {
+      "name": "D",
+      "selected": false,
+      "allocation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "covered_qualified": [
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "share_types": [
+        {
+          "type": 0,
+          "secret_coefficient": 1,
+          "random_terms": [
+            1,
+            2
+          ],
+          "text": "S XOR R_2 XOR R_3"
+        },
+        {
+          "type": 1,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0,
+            1
+          ],
+          "text": "S XOR R_1 XOR R_2"
+        },
+        {
+          "type": 2,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0
+          ],
+          "text": "R_1"
+        },
+        {
+          "type": 3,
+          "secret_coefficient": 0,
+          "random_terms": [
+            1
+          ],
+          "text": "R_2"
+        },
+        {
+          "type": 4,
+          "secret_coefficient": 0,
+          "random_terms": [
+            2
+          ],
+          "text": "R_3"
+        }
+      ],
+      "recovery_masks": [
+        14,
+        25
+      ],
+      "recovery_relations": [
+        "T_1 XOR T_2 XOR T_3 = S",
+        "T_0 XOR T_3 XOR T_4 = S"
+      ]
+    },
+    {
+      "name": "E",
+      "selected": false,
+      "allocation": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "covered_qualified": [
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          5
+        ]
+      ],
+      "share_types": [
+        {
+          "type": 0,
+          "secret_coefficient": 1,
+          "random_terms": [
+            1,
+            2
+          ],
+          "text": "S XOR R_2 XOR R_3"
+        },
+        {
+          "type": 1,
+          "secret_coefficient": 1,
+          "random_terms": [
+            0,
+            2
+          ],
+          "text": "S XOR R_1 XOR R_3"
+        },
+        {
+          "type": 2,
+          "secret_coefficient": 0,
+          "random_terms": [
+            0
+          ],
+          "text": "R_1"
+        },
+        {
+          "type": 3,
+          "secret_coefficient": 0,
+          "random_terms": [
+            1
+          ],
+          "text": "R_2"
+        },
+        {
+          "type": 4,
+          "secret_coefficient": 0,
+          "random_terms": [
+            2
+          ],
+          "text": "R_3"
+        }
+      ],
+      "recovery_masks": [
+        22,
+        25
+      ],
+      "recovery_relations": [
+        "T_1 XOR T_2 XOR T_4 = S",
+        "T_0 XOR T_3 XOR T_4 = S"
+      ]
+    }
+  ],
+  "selected_candidate_indices": [
+    0,
+    1
+  ]
+}

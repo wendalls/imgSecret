@@ -1,0 +1,1997 @@
+{
+  "formulation": "complete-threshold perfect-hash-family set cover",
+  "scope": "2 <= k <= n <= 9",
+  "entries": [
+    {
+      "k": 2,
+      "n": 2,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 2,
+      "n": 3,
+      "reported_optimum": 2,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 2,
+      "verified_upper_bound": 2,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        1
+      ]
+    },
+    {
+      "k": 2,
+      "n": 4,
+      "reported_optimum": 2,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 2,
+      "verified_upper_bound": 2,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        4
+      ]
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "k": 2,
+      "n": 6,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        6,
+        8,
+        17
+      ]
+    },
+    {
+      "k": 2,
+      "n": 7,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        6,
+        24,
+        41
+      ]
+    },
+    {
+      "k": 2,
+      "n": 8,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1
+        ]
+      ],
+      "selected_candidate_indices": [
+        14,
+        50,
+        84
+      ]
+    },
+    {
+      "k": 2,
+      "n": 9,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "selected_candidate_indices": [
+        93,
+        103,
+        110,
+        170
+      ]
+    },
+    {
+      "k": 3,
+      "n": 3,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 3,
+      "n": 4,
+      "reported_optimum": 2,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 2,
+      "verified_upper_bound": 2,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5
+      ]
+    },
+    {
+      "k": 3,
+      "n": 5,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          2
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        3,
+        24
+      ]
+    },
+    {
+      "k": 3,
+      "n": 6,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          2,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        15,
+        40,
+        78
+      ]
+    },
+    {
+      "k": 3,
+      "n": 7,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          1,
+          2,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        43,
+        85,
+        105,
+        289
+      ]
+    },
+    {
+      "k": 3,
+      "n": 8,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          0,
+          1,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          2,
+          1,
+          2,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        150,
+        236,
+        662,
+        873
+      ]
+    },
+    {
+      "k": 3,
+      "n": 9,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          2,
+          0,
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          0,
+          2,
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          1,
+          1,
+          2,
+          2,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        623,
+        1330,
+        2126,
+        2428
+      ]
+    },
+    {
+      "k": 4,
+      "n": 4,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 4,
+      "n": 5,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5,
+        6
+      ]
+    },
+    {
+      "k": 4,
+      "n": 6,
+      "reported_optimum": 5,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 5,
+      "verified_upper_bound": 5,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          0,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        9,
+        11,
+        48,
+        49
+      ]
+    },
+    {
+      "k": 4,
+      "n": 7,
+      "reported_optimum": 6,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 6,
+      "verified_upper_bound": 6,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          1,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          2,
+          0,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          0,
+          2,
+          1
+        ]
+      ],
+      "selected_candidate_indices": [
+        60,
+        95,
+        152,
+        232,
+        274,
+        295
+      ]
+    },
+    {
+      "k": 4,
+      "n": 8,
+      "reported_optimum": 6,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 6,
+      "verified_upper_bound": 6,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          1,
+          0,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          0,
+          3,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        598,
+        685,
+        1130,
+        1520,
+        1622,
+        1673
+      ]
+    },
+    {
+      "k": 4,
+      "n": 9,
+      "reported_optimum": 8,
+      "solver_status": "Time limit reached",
+      "proven_optimal_by_solver": false,
+      "exact_lower_bound": 8,
+      "verified_upper_bound": 8,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          0,
+          2,
+          2,
+          3,
+          0,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          2,
+          0,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3,
+          1,
+          3,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          1,
+          3,
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          2,
+          3,
+          1,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        158,
+        558,
+        1696,
+        2937,
+        4261,
+        4735,
+        6517,
+        7438
+      ]
+    },
+    {
+      "k": 5,
+      "n": 5,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 5,
+      "n": 6,
+      "reported_optimum": 3,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 3,
+      "verified_upper_bound": 3,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5,
+        14
+      ]
+    },
+    {
+      "k": 5,
+      "n": 7,
+      "reported_optimum": 6,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 6,
+      "verified_upper_bound": 6,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          4
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        9,
+        10,
+        73,
+        76,
+        139
+      ]
+    },
+    {
+      "k": 5,
+      "n": 8,
+      "reported_optimum": 8,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 8,
+      "verified_upper_bound": 8,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          1,
+          4
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          3,
+          4,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          3,
+          0,
+          4,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          1,
+          3,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          4,
+          3,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          3,
+          4,
+          2
+        ]
+      ],
+      "selected_candidate_indices": [
+        77,
+        124,
+        236,
+        531,
+        599,
+        815,
+        854,
+        1022
+      ]
+    },
+    {
+      "k": 5,
+      "n": 9,
+      "reported_optimum": 10,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 10,
+      "verified_upper_bound": 10,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          2,
+          3,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3,
+          0,
+          2,
+          4,
+          3
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3,
+          3,
+          4,
+          0,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          1,
+          3,
+          4,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          3,
+          2,
+          4,
+          4,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          1,
+          3,
+          3,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          0,
+          1,
+          2,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          4,
+          4,
+          0,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          2,
+          1,
+          4,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        323,
+        991,
+        2526,
+        2724,
+        3053,
+        3342,
+        4354,
+        5968,
+        6303,
+        6621
+      ]
+    },
+    {
+      "k": 6,
+      "n": 6,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 6,
+      "n": 7,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5,
+        14,
+        15
+      ]
+    },
+    {
+      "k": 6,
+      "n": 8,
+      "reported_optimum": 8,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 8,
+      "verified_upper_bound": 8,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          4,
+          5
+        ]
+      ],
+      "selected_candidate_indices": [
+        2,
+        9,
+        20,
+        22,
+        103,
+        114,
+        229,
+        259
+      ]
+    },
+    {
+      "k": 6,
+      "n": 9,
+      "reported_optimum": 12,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 12,
+      "verified_upper_bound": 12,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          2,
+          3,
+          4,
+          1,
+          5,
+          5
+        ],
+        [
+          0,
+          1,
+          1,
+          2,
+          3,
+          4,
+          5,
+          3,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          3,
+          2,
+          4,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          1,
+          3,
+          4,
+          3,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          1,
+          3,
+          3,
+          4,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          4,
+          3,
+          5,
+          4
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          3,
+          4,
+          5,
+          4,
+          0
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          0,
+          5,
+          2,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          3,
+          0,
+          5,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          2,
+          0,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          5,
+          1,
+          4
+        ]
+      ],
+      "selected_candidate_indices": [
+        110,
+        441,
+        740,
+        848,
+        1108,
+        1190,
+        1775,
+        1963,
+        2043,
+        2254,
+        2361,
+        2620
+      ]
+    },
+    {
+      "k": 7,
+      "n": 7,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 7,
+      "n": 8,
+      "reported_optimum": 4,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 4,
+      "verified_upper_bound": 4,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5,
+        14,
+        27
+      ]
+    },
+    {
+      "k": 7,
+      "n": 9,
+      "reported_optimum": 9,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 9,
+      "verified_upper_bound": 9,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          2,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          0,
+          3,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          1,
+          4,
+          5,
+          6,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          0,
+          5,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          3,
+          5,
+          6,
+          5
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          0,
+          6,
+          2
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          2,
+          4,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          2,
+          3
+        ]
+      ],
+      "selected_candidate_indices": [
+        12,
+        88,
+        200,
+        202,
+        251,
+        315,
+        343,
+        365,
+        430
+      ]
+    },
+    {
+      "k": 8,
+      "n": 8,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    },
+    {
+      "k": 8,
+      "n": 9,
+      "reported_optimum": 5,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 5,
+      "verified_upper_bound": 5,
+      "selected_partition_columns": [
+        [
+          0,
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          0
+        ]
+      ],
+      "selected_candidate_indices": [
+        0,
+        5,
+        14,
+        27,
+        28
+      ]
+    },
+    {
+      "k": 9,
+      "n": 9,
+      "reported_optimum": 1,
+      "solver_status": "OPTIMAL",
+      "proven_optimal_by_solver": true,
+      "exact_lower_bound": 1,
+      "verified_upper_bound": 1,
+      "selected_partition_columns": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "selected_candidate_indices": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+﻿Candidate,Selected,Share-type formulas,Recovery relations,Security verified
+A,yes,T_0 = S XOR R_1 XOR R_2; T_1 = R_1 XOR R_2; T_2 = R_1; T_3 = R_2,T_0 XOR T_1 = S; T_0 XOR T_2 XOR T_3 = S,yes
+B,yes,T_0 = R_1 XOR R_2; T_1 = S XOR R_1 XOR R_2; T_2 = R_1; T_3 = R_2,T_0 XOR T_1 = S; T_1 XOR T_2 XOR T_3 = S,yes
+C,no,T_0 = S XOR R_1; T_1 = S XOR R_1 XOR R_2; T_2 = R_1; T_3 = R_2,T_0 XOR T_2 = S; T_1 XOR T_2 XOR T_3 = S,yes
+D,no,T_0 = S XOR R_2 XOR R_3; T_1 = S XOR R_1 XOR R_2; T_2 = R_1; T_3 = R_2; T_4 = R_3,T_1 XOR T_2 XOR T_3 = S; T_0 XOR T_3 XOR T_4 = S,yes
+E,no,T_0 = S XOR R_2 XOR R_3; T_1 = S XOR R_1 XOR R_3; T_2 = R_1; T_3 = R_2; T_4 = R_3,T_1 XOR T_2 XOR T_4 = S; T_0 XOR T_3 XOR T_4 = S,yes

@@ -1,0 +1,44 @@
+{
+  "format": "sgsr-xvcs-image-v1",
+  "kind": "threshold",
+  "k": 2,
+  "n": 3,
+  "height": 80,
+  "width": 128,
+  "pixel_expansion": 2,
+  "participants": [
+    {
+      "index": 0,
+      "label": "1",
+      "file": "share_001.png"
+    },
+    {
+      "index": 1,
+      "label": "2",
+      "file": "share_002.png"
+    },
+    {
+      "index": 2,
+      "label": "3",
+      "file": "share_003.png"
+    }
+  ],
+  "regions": [
+    {
+      "index": 0,
+      "allocation": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "index": 1,
+      "allocation": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "source": "phone.png",
+  "width": 512,
+  "height": 512,
+  "pixel_expansion": 2,
+  "expanded_share_width": 1024,
+  "region_layout": "horizontal_region_blocks",
+  "recovered_files": [
+    "recovered_1_2.png",
+    "recovered_1_3.png",
+    "recovered_1_4_5.png",
+    "recovered_2_3_4.png",
+    "recovered_2_3_5.png"
+  ],
+  "all_recoveries_pixel_equal": true
+}

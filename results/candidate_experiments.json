@@ -1,0 +1,527 @@
+[
+  {
+    "instance": "G6-14",
+    "definition": "first 14 lexicographic 3-subsets",
+    "minimal_qualified": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        4,
+        5
+      ]
+    ],
+    "n": 6,
+    "g": 14,
+    "canonical_allocations": 203,
+    "allocation_relation_pairs": 868,
+    "raw_candidates": 341,
+    "unique_coverage_columns": 238,
+    "retained_columns": 46,
+    "t_gen_median_s": 0.02985180000177934,
+    "t_ip_median_s": 0.004435899998497916,
+    "total_median_s": 0.034287700000277255,
+    "optimal_regions": 3,
+    "status": "Optimal",
+    "solver": "OR-Tools CBC ILP",
+    "repeats": 5
+  },
+  {
+    "instance": "G7-20",
+    "definition": "first 20 lexicographic 3-subsets",
+    "minimal_qualified": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ]
+    ],
+    "n": 7,
+    "g": 20,
+    "canonical_allocations": 877,
+    "allocation_relation_pairs": 6635,
+    "raw_candidates": 1936,
+    "unique_coverage_columns": 1099,
+    "retained_columns": 80,
+    "t_gen_median_s": 0.2606662000034703,
+    "t_ip_median_s": 0.025043099998583784,
+    "total_median_s": 0.2864566000025661,
+    "optimal_regions": 4,
+    "status": "Optimal",
+    "solver": "OR-Tools CBC ILP",
+    "repeats": 5
+  },
+  {
+    "instance": "G7-30",
+    "definition": "first 30 lexicographic 3-subsets",
+    "minimal_qualified": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        1,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        7
+      ],
+      [
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        4,
+        7
+      ],
+      [
+        2,
+        5,
+        6
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        4,
+        6
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        3,
+        5,
+        7
+      ]
+    ],
+    "n": 7,
+    "g": 30,
+    "canonical_allocations": 877,
+    "allocation_relation_pairs": 18993,
+    "raw_candidates": 5568,
+    "unique_coverage_columns": 3963,
+    "retained_columns": 265,
+    "t_gen_median_s": 1.2935622000004514,
+    "t_ip_median_s": 0.0628880999975081,
+    "total_median_s": 1.3564502999979595,
+    "optimal_regions": 4,
+    "status": "Optimal",
+    "solver": "OR-Tools CBC ILP",
+    "repeats": 5
+  },
+  {
+    "instance": "G7-25-H",
+    "definition": "25 sampled 3-subsets, seed 3",
+    "minimal_qualified": [
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        3,
+        7
+      ],
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        6
+      ],
+      [
+        2,
+        3,
+        7
+      ],
+      [
+        1,
+        2,
+        5
+      ],
+      [
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        3,
+        4,
+        7
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        1,
+        5,
+        6
+      ],
+      [
+        1,
+        2,
+        7
+      ],
+      [
+        1,
+        2,
+        6
+      ],
+      [
+        1,
+        4,
+        6
+      ],
+      [
+        3,
+        5,
+        6
+      ],
+      [
+        2,
+        6,
+        7
+      ],
+      [
+        2,
+        4,
+        7
+      ]
+    ],
+    "n": 7,
+    "g": 25,
+    "canonical_allocations": 877,
+    "allocation_relation_pairs": 7268,
+    "raw_candidates": 2977,
+    "unique_coverage_columns": 1911,
+    "retained_columns": 401,
+    "t_gen_median_s": 0.5826586000002862,
+    "t_ip_median_s": 0.6777896000021428,
+    "total_median_s": 1.2620265999976255,
+    "optimal_regions": 5,
+    "status": "Optimal",
+    "solver": "OR-Tools CBC ILP",
+    "repeats": 5
+  }
+]

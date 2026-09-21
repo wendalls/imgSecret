@@ -1,0 +1,132 @@
+{
+  "secret_dimensions": [
+    512,
+    512
+  ],
+  "mixed_general_access": {
+    "coalitions": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3,
+        5
+      ]
+    ],
+    "whole_xor_dimensions": [
+      [
+        1024,
+        512
+      ],
+      [
+        1024,
+        512
+      ],
+      [
+        1024,
+        512
+      ],
+      [
+        1024,
+        512
+      ],
+      [
+        1024,
+        512
+      ]
+    ],
+    "region_equals_secret": [
+      [
+        true,
+        true
+      ],
+      [
+        true,
+        false
+      ],
+      [
+        true,
+        false
+      ],
+      [
+        false,
+        true
+      ],
+      [
+        false,
+        true
+      ]
+    ]
+  },
+  "threshold_3_6": {
+    "coalitions": [
+      [
+        1,
+        3,
+        5
+      ],
+      [
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "whole_xor_dimensions": [
+      [
+        1536,
+        512
+      ],
+      [
+        1536,
+        512
+      ],
+      [
+        1536,
+        512
+      ]
+    ],
+    "region_equals_secret": [
+      [
+        true,
+        false,
+        false
+      ],
+      [
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        true
+      ]
+    ],
+    "independent_first_mask_hashes": [
+      "72ee5b3504e8d828b8b2558bff12d7fc51f0b9a51d0a8ce937847c04740a4714",
+      "14defc525ddc28ea0eeac1c05ebad08fcbe91bfc35892f729bc804433bdc4283",
+      "d192a5861e4f4ac9a189e4bc6769e816a476e98eae054b9514028f55f19131ff"
+    ]
+  }
+}

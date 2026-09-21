@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sarr-xvcs-reproducibility"
+version = "1.0.0"
+description = "Anonymous reproducibility package for share-allocation and recovery-relation XVCS construction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "Anonymous authors"}]
+keywords = [
+  "visual cryptography",
+  "xor",
+  "access structure",
+  "secret sharing",
+  "set cover",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security :: Cryptography",
+]
+dependencies = ["numpy>=1.24", "ortools>=9.10", "highspy>=1.12", "Pillow>=10"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+sarr-xvcs = "sgsr_xvcs.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
